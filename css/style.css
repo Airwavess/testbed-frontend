@@ -1645,13 +1645,15 @@ ol {
 @media only screen and (max-width: 767px) {
 	.header-section {
 		padding: 30px 0;
-		background: #fff;
+		background: #20509e;
 	}
 	.header-section .responsive-bar {
 		float: right;
 		font-size: 25px;
 		display: block;
 		cursor: pointer;
+		top: 5px;
+		position: relative;
 	}
 	.header-section .user {
 		float: right;
@@ -1659,6 +1661,9 @@ ol {
 		color: #333;
 		margin-right: 20px;
 		display: block;
+	}
+	.responsive-bar i {
+		color: white;
 	}
 	.main-menu {
 		float: none;
@@ -1782,6 +1787,9 @@ ol {
 /* small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	.header-section {
+		background: #20509e;
+	}
 	.review-text {
 		padding: 0 45px;
 	}
