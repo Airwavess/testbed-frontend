@@ -1,16 +1,32 @@
 .site-logo {
     font-family: "Futura";
     font-size: 32px;
-    color: #20509e !important;
+    color: white !important;
     font-weight: 1000;
+}
+
+.header-section {
+    padding: 0px;
 }
 
 .store-links img {
     height: 50px;
 }
 
+.site-btn {
+    background: #20509e;
+}
+
+.footer-section {
+    background: #303c42;
+}
+
 .footer-link {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.footer-link a {
+    color: white !important;
 }
