@@ -17,6 +17,15 @@
     background: #20509e;
 }
 
+.hero-text h2 {
+    margin-bottom: 0;
+}
+
+.hero-text h4 {
+    color: #20509e;
+    line-height: 1;
+}
+
 .footer-section {
     background: #303c42;
 }
