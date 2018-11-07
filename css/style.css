@@ -339,8 +339,8 @@ ol {
 -----------------------*/
 
 .hero-section {
-	height: 900px;
-	padding-top: 260px;
+	height: 550px;
+    margin-top: 48px;
 	display: block;
 	/* background-image: url("../img/hero-bg.png"); */
 	background-size: cover;
@@ -352,10 +352,7 @@ ol {
 }
 
 .hero-section .laptop-image {
-	width: 685px;
-	max-width: none;
-	position: relative;
-	left: 80px;
+	width: 100%;
 }
 
 .hero-text {
@@ -1549,8 +1546,7 @@ ol {
 	}
 	.hero-section {
 		background-position: right 25% top;
-		height: 730px;
-		padding-top: 160px;
+		height: 450px;
 	}
 	.page-info-section {
 		background-position: right 33% top;
@@ -1696,7 +1692,6 @@ ol {
 	.hero-section {
 		height: auto;
 		padding-bottom: 100px;
-		padding-top: 160px;
 		background-position: right 50% top;
 	}
 	.page-info-section {
@@ -1831,5 +1826,9 @@ ol {
 	}
 	.comment .comment-content {
 		padding-left: 0;
+	}
+	.spad {
+		padding-top: 0px;
+		padding-bottom: 40px;
 	}
 }

@@ -30,3 +30,14 @@
 .footer-link a {
     color: white !important;
 }
+
+
+/* common use */
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.full-height {
+    height: 100%;
+}
